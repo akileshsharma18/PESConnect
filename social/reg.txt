@@ -1,0 +1,35 @@
+<h4 class="title"><b>Register</b></h4><hr>
+        <br/>
+        <div id="content">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="fullname">
+            <label class="mdl-textfield__label" for="sample3">Full Name</label>
+        </div>
+        <br/>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="email" id="email">
+            <label class="mdl-textfield__label" for="sample3"> pes_id@students.pes.edu</label>
+        </div>
+        <br/>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="password" id="password"> 
+            <label class="mdl-textfield__label" for="sample3">Password</label>
+        </div>
+        <br/>
+        I'm:
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+            <input type="radio" id="option-1" class="mdl-radio__button" name="gender" value="Female" checked>
+            <span class="mdl-radio__label">Female</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+            <input type="radio" id="option-2" class="mdl-radio__button" name="gender" value="Male">
+            <span class="mdl-radio__label">Male</span>
+        </label>
+        <br/>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="dob">
+            <label class="mdl-textfield__label" for="sample3"></label>
+        </div>
+        <br/><br/>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" onclick="register()">Sign Up</button>
+    </div>
